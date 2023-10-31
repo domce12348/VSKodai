@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+#header {
+    margin-top: 20px;
+    text-align: center;
+}
+#Pagrindinis {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+#Pagrindinis td {
+    border:1px solid black;
+    height: fit-content;
+    width: fit-content;
+    vertical-align: top;
+}
+.class {
+    text-align: center;
+}
+#menuo td {
+    text-align: center;
+    border: none;
+}
+
+#menuo tr :nth-child(1) {
+    color:red;
+}
+
+#menuo th {
+    color: black !important;
+}
+
+.colorRed {
+    color:red;
+}
+
